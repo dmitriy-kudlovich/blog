@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 auto;
+
+  padding: 50px 60px;
+
+  width: 1600px;
+
+  border-bottom: solid 1px $border-color;
+}
+
+.header-heading {
+  font-size: 38px;
+  font-family: "Exo 2", sans-serif;
+  color: #1a1a1a;
+}

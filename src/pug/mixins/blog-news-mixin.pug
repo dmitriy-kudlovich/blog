@@ -1,0 +1,18 @@
+mixin blog-news(heading, date, img, text)
+    .blog-content--news
+        h2.article-heading= heading
+        p.date= date
+        a(href= "#!").blog-content--img
+            img(src=`./img/posts-preview/${img}` alt= heading)
+        p.blog-content--text= text
+        .blog-content--news--bottom
+            a(href= "#!").button-read-more read more
+            .social-icons--block.news-icons
+                a(href= "#!").social-icon
+                    i(class="fa fa-whatsapp" aria-hidden="true")
+                a(href= "#!").social-icon
+                    i(class="fa fa-instagram" aria-hidden="true")
+                a(href= "#!").social-icon
+                    i(class="fa fa-twitter" aria-hidden="true")
+                a(href= "#!").social-icon
+                    i(class="fa fa-facebook" aria-hidden="true")

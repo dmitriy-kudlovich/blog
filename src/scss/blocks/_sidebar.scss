@@ -1,0 +1,93 @@
+.blog-content--sidebar {
+  width: 270px;
+
+  text-align: center;
+}
+
+.sidebar-posts {
+  margin-bottom: 70px;
+
+  &:last-of-type {
+    margin-bottom: 34px;
+  }
+}
+
+.sidebar-posts__title {
+  margin-bottom: 37px;
+  padding: 26px 65px;
+
+  border: 1px solid $border-color;
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sidebar-posts__block {
+  display: block;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid $border-color;
+  text-align: center;
+
+  &:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.sidebar-posts__img {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 25px;
+}
+
+.sidebar-posts__img img {
+  object-fit: cover;
+  object-position: center;
+
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.sidebar-posts__heading {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.sidebar-posts__date {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+// Instagram links
+
+.instagram-posts__links--row {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 34px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.instagram-posts__links--img {
+  display: block;
+}
+
+.instagram-posts__links--img img {
+  width: 120px;
+  height: 100px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.instagram-posts__links--row-center {
+  justify-content: center;
+}
+// -- Instagram links

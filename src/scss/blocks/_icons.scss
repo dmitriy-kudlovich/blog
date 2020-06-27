@@ -1,0 +1,41 @@
+.social-icons--block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 21px;
+}
+
+.header .social-icons--block {
+  margin-right: 30px;
+}
+
+.social-icon {
+  margin-right: 10px;
+  padding: 10px;
+
+  transition: color 0.2s ease-in;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover,
+  &:active {
+    color: $active-color;
+  }
+}
+
+.search {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  right: 43px;
+
+  font-size: 26px;
+
+  &:hover,
+  &:active {
+    color: $active-color;
+  }
+}

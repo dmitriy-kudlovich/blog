@@ -1,0 +1,47 @@
+.subscribe-button {
+  padding: 13px 40px;
+  border-radius: 19px;
+  text-align: center;
+
+  background-color: #375573;
+
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1;
+
+  transition: 0.2s;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-color: lighten($color: #375573, $amount: 20);
+  }
+}
+
+.button-read-more {
+  padding: 17px 30px;
+
+  border-radius: 6px;
+  background-color: #375573;
+
+  font-size: 12px;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+
+  transition: 0.2s;
+
+  &:visited {
+    color: #ffffff;
+  }
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-color: lighten($color: #375573, $amount: 20);
+  }
+}
