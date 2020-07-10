@@ -4,15 +4,3 @@ mixin sidebar-posts(img, name, date)
             img(src=`./img/small-thumbs/${img}`, alt= name)
         h3.article-heading.sidebar-posts__heading= name
         p.date.sidebar-posts__date= date
-
-mixin instagram-posts(img1, img2)
-    if img2== ""
-        .instagram-posts__links--row.instagram-posts__links--row-center
-            a(href="#!").instagram-posts__links--img
-                img(src=`./img/instagram/${img1}`, alt= img1)
-    else
-        .instagram-posts__links--row
-            a(href="#!").instagram-posts__links--img
-                img(src=`./img/instagram/${img1}`, alt= img1)
-            a(href="#!").instagram-posts__links--img
-                img(src=`./img/instagram/${img2}`, alt= img2)

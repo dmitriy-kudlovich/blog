@@ -64,19 +64,21 @@
 
 // Instagram links
 
-.instagram-posts__links--row {
+.instagram-posts__links {
   display: flex;
   justify-content: space-between;
-
-  margin-bottom: 34px;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
+  flex-wrap: wrap;
 }
 
 .instagram-posts__links--img {
   display: block;
+
+  margin-bottom: 34px;
+
+  &:last-child,
+  &:nth-last-child(2) {
+    margin-bottom: 0;
+  }
 }
 
 .instagram-posts__links--img img {
@@ -87,7 +89,4 @@
   object-position: center;
 }
 
-.instagram-posts__links--row-center {
-  justify-content: center;
-}
 // -- Instagram links
